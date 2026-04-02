@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aleli Japa | Resultados</title>
+  <meta name="description" content="Resultados y testimonios visuales de clientas de Aleli Japa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="results">
+  <div class="site-shell">
+    <div class="popup hidden" id="entryPopup">
+      <div class="popup-card">
+        <h2 data-i18n="popupTitle">¡Felicidades por dar el primer paso!</h2>
+        <p data-i18n="popupText">Hoy comienzas algo más grande que un cambio físico: una nueva etapa para sentirte fuerte, segura y comprometida con tu bienestar.</p>
+        <button class="popup-btn" id="popupClose" data-i18n="popupButton">Continuar</button>
+      </div>
+    </div>
+
+    <div class="mobile-overlay hidden" id="mobileOverlay"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo"><span class="logo-main">ALELI</span><span class="logo-accent">JAPA</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+        <nav class="nav" id="mainNav">
+          <div class="nav-top">
+            <button class="close-menu" id="closeMenu" aria-label="Cerrar menú">✕</button>
+          </div>
+          <div class="nav-links">
+            <a class="nav-link" data-page="home" href="index.html" data-i18n="navHome">Inicio</a>
+            <a class="nav-link" data-page="about" href="about.html" data-i18n="navAbout">Sobre mí</a>
+            <a class="nav-link" data-page="join" href="unete.html" data-i18n="navJoin">Únete</a>
+            <a class="nav-link" data-page="results" href="resultados.html" data-i18n="navResults">Resultados</a>
+          </div>
+          <div class="nav-actions"><button class="lang-toggle" aria-label="Cambiar idioma">EN</button></div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container results-hero">
+          <div class="results-copy">
+            <div class="eyebrow" data-i18n="resultsEyebrow">Resultados</div>
+            <h1 class="section-title" data-i18n="resultsTitle">Antes y después que respaldan la experiencia</h1>
+            <div class="filter-row">
+              <button class="filter-chip active" data-filter="all" data-i18n="filterAll">Todos</button>
+              <button class="filter-chip" data-filter="physical" data-i18n="filter1">Cambios físicos</button>
+              <button class="filter-chip" data-filter="postpartum" data-i18n="filter2">Postparto</button>
+              <button class="filter-chip" data-filter="habits" data-i18n="filter3">Hábitos</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="results-grid">
+            <article class="gallery-card" data-category="physical habits"><img src="assets/a937269a-60e5-47d5-a2c7-dd25beb11438.jpg" alt="Resultado cliente 1" data-lightbox-src="assets/a937269a-60e5-47d5-a2c7-dd25beb11438.jpg" data-caption="Resultado cliente 1" /><div class="gallery-info"><div class="gallery-title" data-i18n="result1Title">Cambio de espalda y cintura</div><div class="gallery-caption" data-i18n="result1Text">Más definición, mejor postura y progreso visible.</div></div></article>
+            <article class="gallery-card" data-category="physical"><img src="assets/39582a05-44b5-4ef7-9bc4-ba90c1346749.jpg" alt="Resultado cliente 2" data-lightbox-src="assets/39582a05-44b5-4ef7-9bc4-ba90c1346749.jpg" data-caption="Resultado cliente 2" /><div class="gallery-info"><div class="gallery-title" data-i18n="result2Title">Mejora lateral</div><div class="gallery-caption" data-i18n="result2Text">Reducción visible y mayor forma en el proceso.</div></div></article>
+            <article class="gallery-card" data-category="postpartum habits"><img src="assets/cb4c39a8-0c72-4a80-a385-f58bf4605e3e.jpg" alt="Resultado cliente 3" data-lightbox-src="assets/cb4c39a8-0c72-4a80-a385-f58bf4605e3e.jpg" data-caption="Resultado cliente 3" /><div class="gallery-info"><div class="gallery-title" data-i18n="result3Title">Zona media</div><div class="gallery-caption" data-i18n="result3Text">Constancia que se refleja en la parte baja de la espalda.</div></div></article>
+            <article class="gallery-card" data-category="physical"><img src="assets/d05ff23b-4b6d-4d1c-8dc8-f2497c7f1984.jpg" alt="Resultado cliente 4" data-lightbox-src="assets/d05ff23b-4b6d-4d1c-8dc8-f2497c7f1984.jpg" data-caption="Resultado cliente 4" /><div class="gallery-info"><div class="gallery-title" data-i18n="result4Title">Perfil corporal</div><div class="gallery-caption" data-i18n="result4Text">Más estructura y mejor control del cuerpo.</div></div></article>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card"><h3>01</h3><p data-i18n="review1">“Me sentí acompañada durante todo el proceso y vi cambios reales en mi cuerpo.”</p><strong data-i18n="review1By">Cliente satisfecha</strong></article>
+            <article class="review-card"><h3>02</h3><p data-i18n="review2">“Las rutinas fueron fáciles de seguir y me ayudaron a mantenerme constante.”</p><strong data-i18n="review2By">Cliente del reto</strong></article>
+            <article class="review-card"><h3>03</h3><p data-i18n="review3">“Lo que más me gustó fue la motivación y que todo se sentía alcanzable.”</p><strong data-i18n="review3By">Cliente online</strong></article>
+          </div>
+
+          <div class="inline-actions" style="margin-top: 28px; justify-content: center;">
+            <a class="primary-btn" href="unete.html" data-i18n="resultsButton">Unirme ahora</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="index.html" class="logo"><span class="logo-main">ALELI</span><span class="logo-accent">JAPA</span></a>
+          <div class="footer-copy" data-i18n="footerCopy">Sitio diseñado para verse bien en GitHub Pages, móvil y dominio personalizado.</div>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.instagram.com/aleli_japa?igsh=MzVoYW9jbWE4cDA0" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.tiktok.com/@aleli.japa?_r=1&_t=ZT-954RflXUhQM" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://wa.me/18492075776" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lightbox hidden" id="lightbox">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">✕</button>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="Vista ampliada" />
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
